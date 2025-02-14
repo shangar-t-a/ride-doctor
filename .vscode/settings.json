@@ -1,0 +1,29 @@
+{
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "editor.rulers": [
+      120
+    ],
+    "editor.formatOnSave": true,
+    "[markdown]": {
+      "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[toml]": {
+        "editor.defaultFormatter": "tamasfe.even-better-toml"
+    },
+    "[python]": {
+      "editor.defaultFormatter": "charliermarsh.ruff",
+      "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+      }
+    },
+    "ruff.configuration": "../.ruff.toml",
+    "python.analysis.supportRestructuredText": true,
+    "python.analysis.completeFunctionParens": true,
+    "pylint.args": [
+      "--max-line-length=120"
+    ],
+    "git.autofetch": true
+}
