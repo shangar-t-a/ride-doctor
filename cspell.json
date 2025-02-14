@@ -1,0 +1,12 @@
+{
+    "dictionaryDefinitions": [
+        {
+            "name": "RideDoctorDictionary",
+            "path": "cspell_dictionary.txt",
+            "description": "RideDoctor custom dictionary"
+        }
+    ],
+    "dictionaries": [
+        "RideDoctorDictionary"
+    ]
+}
